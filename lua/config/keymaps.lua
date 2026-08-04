@@ -3,5 +3,8 @@ vim.g.maplocalleader = " "
 
 local map = vim.keymap.set
 
--- Salvar com mais facilidade
-map("n", "<leader>w", "<cmd>w<CR>", { desc = "Salvar arquivo" })
+-- save
+map("n", "<leader>w", "<cmd>w<CR>", { desc = "save file" })
+
+-- Exit
+map("n", "<leader>q", "<cmd>q<CR>", { desc = "exit the archive" })
