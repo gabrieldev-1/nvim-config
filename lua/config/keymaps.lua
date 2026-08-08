@@ -8,3 +8,6 @@ map("n", "<leader>w", "<cmd>w<CR>", { desc = "save file" })
 
 -- Exit
 map("n", "<leader>q", "<cmd>q<CR>", { desc = "exit the archive" })
+
+-- Neotree
+
