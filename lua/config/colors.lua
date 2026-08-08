@@ -1,4 +1,5 @@
 local colors = {
+  base04 = "#00141A"; 
   base03 = "#002b36",
   base02 = "#073642",
   base01 = "#586e75",
