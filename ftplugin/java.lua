@@ -1,5 +1,8 @@
+local capabilities = require("cmp_nvim_lsp").default_capabilities()
+
 local config = {
   cmd = { "jdtls" },
+  capabilities = capabilities,
   root_dir = vim.fs.dirname(vim.fs.find({ "pom.xml", "gradlew", ".git" }, { upward = true })[1]),
   settings = {
     java = {

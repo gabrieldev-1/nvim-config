@@ -5,6 +5,7 @@ return {
       "williamboman/mason-lspconfig.nvim",
       "neovim/nvim-lspconfig",
       "mfussenegger/nvim-jdtls",
+      "hrsh7th/cmp-nvim-lsp", -- Garante que o LSP passe as informações ao CMP
   },
     config = function()
       -- 1. Inicializa o Mason
