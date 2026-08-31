@@ -4,14 +4,15 @@ return {
     dependencies = {
       "williamboman/mason-lspconfig.nvim",
       "neovim/nvim-lspconfig",
-    },
+      "mfussenegger/nvim-jdtls",
+  },
     config = function()
       -- 1. Inicializa o Mason
       require("mason").setup()
 
       -- 2. Garante que os servidores estejam instalados
       require("mason-lspconfig").setup({
-        ensure_installed = { "lua_ls" , "clangd"},
+        ensure_installed = { "lua_ls" , "clangd", "jdtls" },
       })
 
       -- 3. Mapeamentos de teclas no evento LspAttach (mantém igual)
