@@ -7,7 +7,7 @@ local colors = {
   base0 = "#839496",
   base1 = "#93a1a1",
   base2 = "#eee8d5",
-  base3 = "#fdf6e3",
+  base3 = "#fdf6e3", 
   yellow = "#b58900",
   orange = "#cb4b16",
   red = "#dc322f",
@@ -17,7 +17,7 @@ local colors = {
   cyan = "#2aa188",
   green = "#859900",
   primary = {
-    background = "#002b36",
+    background = "#000000", --#002b36
     foreground = "#839496",
   },
 }

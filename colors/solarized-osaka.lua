@@ -14,7 +14,7 @@ local hl = function(group, opts)
 end
 
 -- UI
-hl("Normal", { fg = colors.base0, bg = colors.base04 })
+hl("Normal", { fg = colors.base0, bg = colors.primary.background })
 hl("LineNr", { fg = colors.base03, bg = colors.base03 })
 hl("CursorLineNr", { fg = colors.base3, bg = colors.base03, bold = true })
 hl("Visual", { fg = colors.base03, bg = colors.base2 })
