@@ -45,7 +45,7 @@ map("n", "<leader>e", "<cmd>Neotree toggle<CR>", { desc = "Toggle Neo-tree" })
 -------------------------------------------------------------------------------
 
 -- map({"n", "t"}, "<leader>t", "<cmd>ToggleTerm<CR>", { desc = "Open terminal" })
-vim.keymap.set("n", "<leader>t", "<cmd>ToggleTerm direction=tab<CR>", { desc = "Terminal in new tab" })
+vim.keymap.set("n", "<leader>t", "<cmd>ToggleTerm direction=float<CR>", { desc = "Terminal in new tab" })
 
 
 

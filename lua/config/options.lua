@@ -19,3 +19,5 @@ opt.ignorecase = true
 opt.smartcase = true
 opt.hlsearch = true
 
+-- copy and paste outside the editor
+opt.clipboard = "unnamedplus"
